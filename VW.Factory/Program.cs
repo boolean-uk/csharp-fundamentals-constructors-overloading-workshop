@@ -1,4 +1,5 @@
-﻿using VW.Factory.Cars;
+﻿using VW.Factory.CarParts;
+using VW.Factory.Cars;
 
 namespace VW.Factory
 {
@@ -6,8 +7,12 @@ namespace VW.Factory
     {
         static void Main(string[] args)
         {
-            
-            Beetle herby = new Beetle();
+
+            Console.WriteLine("Standard Beetle");
+            Beetle standard = new Beetle();
+
+            Console.WriteLine("Herby");
+            Beetle herby = new Beetle("53", new ElectricEngineParts());
 
             
             Console.ReadLine();

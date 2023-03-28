@@ -10,7 +10,15 @@ namespace VW.Factory.CarParts
     {
         public Engine()
         {
-            
+            Console.WriteLine("Constructed engine with no parts?!");
+        }
+        public Engine(DieselEngineParts dieselEngineParts)
+        {
+            Console.WriteLine("Constructed engine with diesel parts");
+        }
+        public Engine(ElectricEngineParts electricEngineParts)
+        {
+            Console.WriteLine("Constructed engine with electric parts");
         }
 
     }

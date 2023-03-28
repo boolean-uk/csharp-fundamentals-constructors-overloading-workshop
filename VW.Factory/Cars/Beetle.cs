@@ -17,11 +17,22 @@ namespace VW.Factory.Cars
         public Beetle()
         {
             _engine = new Engine();
-          
-          
+            _bonnet = new Bonnet();                    
+        }
+        public void Beetle(string NumberToPutOnBonnet, ElectricEngineParts engineParts)
+        {
+            _engine = new Engine(engineParts);
+            _bonnet = new Bonnet(NumberToPutOnBonnet);
+        }
+        public Beetle(string NumberToPutOnBonnet, DieselEngineParts engineParts)
+        {
+            _engine = new Engine(engineParts);
+            _bonnet = new Bonnet(NumberToPutOnBonnet);
         }
 
 
+
+        //
 
     }
 }
