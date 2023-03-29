@@ -14,11 +14,15 @@ namespace VW.Factory.CarParts
         }
         public Engine(DieselEngineParts dieselEngineParts)
         {
-            Console.WriteLine("Constructed engine with diesel parts");
+            Console.WriteLine("Constructed diesel engine");
         }
         public Engine(ElectricEngineParts electricEngineParts)
         {
-            Console.WriteLine("Constructed engine with electric parts");
+            Console.WriteLine("Constructed electric engine");
+        }
+        public Engine(PetrolEngineParts petrolEngineParts)
+        {
+            Console.WriteLine("Constructed petrol engine");
         }
 
     }
