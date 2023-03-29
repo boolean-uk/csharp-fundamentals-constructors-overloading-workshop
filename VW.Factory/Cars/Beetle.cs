@@ -4,36 +4,20 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VW.Factory.CarParts;
 
 namespace VW.Factory.Cars
 {
     public class Beetle
     {
-       
-        private Bonnet _bonnet;
-        private Engine _engine;
 
         //constructor overloading
-        public Beetle()
+        public Beetle(string licencePlate)
         {
-            _engine = new Engine();
-            _bonnet = new Bonnet();                    
+            Console.WriteLine($"Beetle {licencePlate}");
         }
-        public Beetle(string NumberToPutOnBonnet, ElectricEngineParts engineParts)
+        public Beetle(string licencePlate, string stickerOnBonnet)
         {
-            _engine = new Engine(engineParts);
-            _bonnet = new Bonnet(NumberToPutOnBonnet);
-        }
-        public Beetle(string NumberToPutOnBonnet, DieselEngineParts engineParts)
-        {
-            _engine = new Engine(engineParts);
-            _bonnet = new Bonnet(NumberToPutOnBonnet);
-        }
-        public Beetle(string NumberToPutOnBonnet, PetrolEngineParts engineParts)
-        {
-            _engine = new Engine(engineParts);
-            _bonnet = new Bonnet(NumberToPutOnBonnet);
+            Console.WriteLine($"Beetle {licencePlate} with custom bonnet sticker {stickerOnBonnet}");
         }
 
 

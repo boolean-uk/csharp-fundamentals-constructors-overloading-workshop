@@ -16,12 +16,12 @@ namespace VW.Factory
             Console.WriteLine();
 
             Console.WriteLine("Herby");
-            Beetle herby = new Beetle("53", new PetrolEngineParts());
+            Beetle herby = new Beetle("53");
 
             Console.WriteLine();
 
             Console.WriteLine("Diesel Golf");
-            Golf dieselGolf = new Golf(new Engine(new DieselEngineParts()));
+            Golf dieselGolf = new Golf(2.00f, "MYG01F");
 
             Console.WriteLine();
 

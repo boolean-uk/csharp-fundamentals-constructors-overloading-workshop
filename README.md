@@ -7,7 +7,7 @@
 
 ## Workshop Sample
 Demonstrate in a C# console app how to instantiate classes and debug.  Demonstrate overloading with multiple constructors, methods. 
-I’ll create  VW solution with a console application called VW.Factory which we will use to create cars & parts.  Constructing cars by passing in parts to the constructor.
+I’ll create  VW solution with a console application called VW.Factory which we will use to create cars with different parameters to the constructor.
 
 
 ![](./images/herby.JPG)

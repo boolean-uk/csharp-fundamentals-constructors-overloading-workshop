@@ -9,10 +9,14 @@ namespace VW.Factory.Cars
 {
     public class Golf
     {
-        private Engine _engine;
-        public Golf(Engine engine)
+        
+        public Golf(string licencePlate)
         {
-            _engine = engine;
+            //standard engine size
+        }
+        public Golf(string licencePlate, double engineSize) 
+        { 
+            //custom engine size
         }
     }
 }
