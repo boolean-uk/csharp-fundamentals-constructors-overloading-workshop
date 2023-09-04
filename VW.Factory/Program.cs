@@ -8,7 +8,7 @@ namespace VW.Factory
         {
 
             //car production line
-
+            //Place a breakpoint on the line below and step through code to follow execution! (use F5, F10 and F11)
             Console.WriteLine("Standard Beetle");
             Beetle standard = new Beetle();
 
