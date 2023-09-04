@@ -1,5 +1,4 @@
-﻿using VW.Factory.CarParts;
-using VW.Factory.Cars;
+﻿using VW.Factory.Cars;
 
 namespace VW.Factory
 {
@@ -21,7 +20,7 @@ namespace VW.Factory
             Console.WriteLine();
 
             Console.WriteLine("Diesel Golf");
-            Golf dieselGolf = new Golf(2.00f, "MYG01F");
+            Golf dieselGolf = new Golf("MYG01F", 1.4);
 
             Console.WriteLine();
 

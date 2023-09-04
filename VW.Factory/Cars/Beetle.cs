@@ -9,6 +9,10 @@ namespace VW.Factory.Cars
 {
     public class Beetle
     {
+        public Beetle()
+        {
+
+        }
 
         //constructor overloading
         public Beetle(string licencePlate)
